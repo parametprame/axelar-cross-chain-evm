@@ -22,4 +22,14 @@ export const ChainList = [
     },
     rpcUrls: ["https://api.avax-test.network/ext/bc/C/rpc"],
   },
+  {
+    chainName: "Polygon Mumbai",
+    chainId: ethers.utils.hexValue(80001),
+    nativeCurrency: {
+      name: "MATIC",
+      decimals: 18,
+      symbol: "MATIC",
+    },
+    rpcUrls: ["https://matic-testnet-archive-rpc.bwarelabs.com"],
+  },
 ];
